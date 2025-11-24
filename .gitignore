@@ -1,0 +1,40 @@
+# Terrafor
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+lambda_function.zip
+
+# Variables (secrets)
+terraform.tfvars
+*.tfvars
+
+# IDE stuff
+.vscode/
+*.log
+
+# OS files
+.DS_Store
+
+lambda_function.zip
+*.zip
+
+
+# Local env / secrets
+.env
+*.env
+
+# Terraform local stuff
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+*.tfvars
+
+# Lambda build artifacts
+lambda_function.zip
+
+# OS / editor junk
+.DS_Store
+.vscode/
